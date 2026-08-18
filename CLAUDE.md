@@ -32,8 +32,19 @@ Conventional Commits format. Triggers on commit messages, PR descriptions, or ch
 ### reviewing-code
 Structured code review with prioritized feedback. Uses `allowed-tools: Read, Grep, Glob` for read-only access.
 
+### security-and-hardening
+OWASP-based security hardening: threat modeling, input validation, secrets/dependency hygiene, SSRF/XSS prevention, privacy and LLM security.
+
+### performance-optimization
+Measure-first performance workflow for frontend and backend: Core Web Vitals, N+1 fixes, bundle/image/font budgets.
+
+### frontend-ui-engineering
+Production-quality, accessible UI patterns for React/Next.js. Triggers on building/modifying components, layouts, or WCAG accessibility requirements.
+
 ### writing-tests
 Testing strategy guidance. Triggers on test writing, coverage questions, or mocking setup.
+
+`security-and-hardening`, `performance-optimization`, and `frontend-ui-engineering` are adapted from [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) (MIT License) — see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## Skill Structure
 

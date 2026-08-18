@@ -62,6 +62,46 @@ Structured code review with prioritized, actionable feedback.
 
 ---
 
+### security-and-hardening
+
+OWASP-based security hardening for web applications.
+
+**Use when:** Handling user input, authentication, data storage, payments, or external/LLM integrations.
+
+**Includes:**
+- Threat modeling (STRIDE) and trust-boundary mapping
+- OWASP Top 10 prevention patterns (injection, XSS, SSRF, broken auth/access control)
+- Secrets management, dependency/supply-chain hygiene
+- Data privacy (GDPR/CCPA) and LLM/AI security (OWASP LLM Top 10)
+
+---
+
+### performance-optimization
+
+Measure-first performance workflow for frontend and backend.
+
+**Use when:** Performance requirements exist, Core Web Vitals are below target, or you suspect a regression.
+
+**Includes:**
+- Core Web Vitals targets (LCP, INP, CLS) and a measure → identify → fix → verify → guard workflow
+- N+1 query, bundle-size, and image/font optimization patterns
+- Performance budgets and a strict keep-or-revert verification step
+
+---
+
+### frontend-ui-engineering
+
+Production-quality, accessible UI patterns for React/Next.js.
+
+**Use when:** Building or modifying user-facing interfaces and components.
+
+**Includes:**
+- Component architecture and state-management decision guide
+- Avoiding the generic "AI aesthetic" (design-system adherence)
+- WCAG 2.1 AA accessibility checklist and testing tools
+
+---
+
 ### writing-tests
 
 Practical testing strategy for web applications.
@@ -141,3 +181,5 @@ Contributions welcome! Please:
 ## License
 
 MIT
+
+Skills in this repository are original unless noted. `security-and-hardening`, `performance-optimization`, and `frontend-ui-engineering` are adapted from [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) (MIT) — see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for full attribution.

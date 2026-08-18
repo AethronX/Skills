@@ -41,7 +41,12 @@ description: {One sentence describing what the skill does and when to use it. In
 | `organizing-project-files` | Project structure conventions for React/Next.js applications |
 | `writing-commits` | Conventional Commits format, PR templates, branch naming |
 | `reviewing-code` | Structured code review with prioritized feedback (read-only) |
+| `security-and-hardening` | OWASP-based security hardening, threat modeling, secrets/dependency hygiene |
+| `performance-optimization` | Measure-first performance workflow, Core Web Vitals, N+1 fixes |
+| `frontend-ui-engineering` | Production-quality accessible UI patterns, WCAG 2.1 AA |
 | `writing-tests` | Testing strategy for unit, integration, and e2e tests |
+
+Skills are original unless noted in their `SKILL.md` frontmatter (`source:` field) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## Best Practices for Context Efficiency
 
