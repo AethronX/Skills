@@ -56,6 +56,9 @@ Production telemetry: structured logging with correlation IDs, RED/USE metrics, 
 ### shipping-and-launch
 Pre-launch checklists, staged rollout decision thresholds, and rollback plans for production deploys.
 
+### animation
+Motion and animation design for web UIs: performance-safe CSS properties, duration/easing conventions, `prefers-reduced-motion`, and choosing between CSS, the View Transitions API, and Framer Motion.
+
 ### writing-tests
 Testing strategy guidance. Triggers on test writing, coverage questions, or mocking setup.
 

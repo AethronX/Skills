@@ -167,6 +167,19 @@ Pre-launch checklists and staged production rollouts.
 
 ---
 
+### animation
+
+Motion and animation design for web UIs.
+
+**Use when:** Adding transitions, page/route animations, list reordering, loading motion, or micro-interactions.
+
+**Includes:**
+- Compositor-only animation (`transform`/`opacity`) vs. layout-triggering properties
+- Duration/easing conventions and a tool-selection decision tree (CSS vs. View Transitions API vs. Framer Motion)
+- `prefers-reduced-motion` handling and other accessibility rules for motion
+
+---
+
 ### writing-tests
 
 Practical testing strategy for web applications.

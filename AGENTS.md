@@ -49,6 +49,7 @@ description: {One sentence describing what the skill does and when to use it. In
 | `browser-testing-with-devtools` | Live browser verification via Chrome DevTools MCP |
 | `observability-and-instrumentation` | Structured logging, RED/USE metrics, OpenTelemetry tracing |
 | `shipping-and-launch` | Pre-launch checklists, staged rollout thresholds, rollback plans |
+| `animation` | Motion/animation design: performance, accessibility, CSS vs. View Transitions vs. Framer Motion |
 | `writing-tests` | Testing strategy for unit, integration, and e2e tests |
 
 Skills are original unless noted in their `SKILL.md` frontmatter (`source:` field) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
