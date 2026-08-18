@@ -2,6 +2,8 @@
 
 This repository contains skills for Claude Code and other AI coding agents.
 
+For guidance on selecting, combining, and sequencing these skills across a full project lifecycle, see [AURIX-METHODOLOGY.md](AURIX-METHODOLOGY.md).
+
 ## Installation
 
 ```bash

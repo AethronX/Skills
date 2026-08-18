@@ -4,6 +4,8 @@ A collection of skills for AI coding agents focused on modern web development wo
 
 Skills follow the [Agent Skills](https://agentskills.io/) specification and work with [Claude Code](https://claude.ai/code), [OpenCode](https://opencode.ai), [Codex](https://developers.openai.com/codex), and [Cursor](https://cursor.com).
 
+For guidance on selecting, combining, and sequencing these skills across a full project lifecycle (discovery through deploy), see [AURIX-METHODOLOGY.md](AURIX-METHODOLOGY.md).
+
 ## Available Skills
 
 ### using-cli-tools

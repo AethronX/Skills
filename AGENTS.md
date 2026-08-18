@@ -2,6 +2,8 @@
 
 A collection of skills for AI coding agents focused on modern web development workflows.
 
+For how to select, combine, and sequence these skills across a project's lifecycle, see [AURIX-METHODOLOGY.md](AURIX-METHODOLOGY.md).
+
 ## Repository Structure
 
 Skills are packaged instructions and reference files that extend agent capabilities.
