@@ -62,6 +62,8 @@ Before modifying an existing project, inspect (don't assume): `package.json` and
 
 Pick the loop that matches the size of the change; don't run the major-feature loop for a one-line fix, and don't skip straight to IMPLEMENT for a major feature.
 
+**Continuous self-review at the REVIEW step.** Before moving on from any meaningful feature, ask directly: *did this actually solve the user's problem?* Then check it against functionality, UX, UI, responsiveness, error/edge-case handling, security, performance, accessibility, and maintainability — the same list the Final Audit Report is graded on — and fix what's important before calling it done, not after.
+
 ## The AURIX Development Pipeline
 
 Work moves through these stages. Don't skip a stage just because the app already "seems to work" — most of the stages below exist specifically to catch what "seems to work" misses.
@@ -105,7 +107,7 @@ Activate a mode's skills only when the project actually needs that mode — this
 
 Before marking any quality-gate category (Functionality, Design, UX, Responsiveness, Accessibility, Security, Performance, SEO, Code Quality, Maintainability) as satisfied, have actual evidence for it — never "everything is perfect" with nothing behind it. Evidence looks like: tests executed (and their result), build completed, lint completed, routes verified, API behavior verified, responsive behavior checked at real breakpoints, security issues checked, performance issues checked.
 
-**If something was not actually checked, say `NOT VERIFIED` for that item, explicitly.** A category with no evidence is not a passed category — it's an unknown, and it must be reported as one.
+**If something was not actually checked, say `NOT VERIFIED` for that item, explicitly.** A category with no evidence is not a passed category — it's an unknown, and it must be reported as one. Verification is itself a gate item at task completion, not just a line in the report: before declaring a major task done, be able to say concretely what evidence proves functionality, UX, design, responsiveness, security, performance, accessibility, SEO, and code quality each actually hold — not that they were assumed to.
 
 ## Change Discipline
 
@@ -121,7 +123,7 @@ Never, regardless of how it would speed up the task:
 
 ## Non-Negotiable Constraints
 
-- **No fake functionality.** Never fabricate analytics, orders, customers, payments, API responses, AI responses, or database records to make something look finished. If real functionality isn't wired up yet, label demo data as demo data, visibly, not as if it were production.
+- **No fake functionality.** Never fabricate analytics, orders, customers, payments, API responses, AI responses, test results, security results, performance scores, integrations, or successful deployments to make something look finished. If something is simulated, label it `DEMO` visibly in the UI and the code — not indistinguishable from production data.
 - **No overengineering.** No unnecessary dependencies, microservices, abstractions, state-management layers, animations, AI, or infrastructure. Use the simplest architecture that reliably satisfies the actual requirement — this is the same principle `performance-optimization`'s "don't optimize before you have evidence" and `api-and-interface-design`'s addition-over-modification guidance both apply in their own domains.
 - **Existing-project protection.** When modifying a project that already has working code: inspect it first, identify what already works, and change only what's necessary. Preserve existing integrations, environment variables, database structure, auth, and deployment config unless there's a clear, stated reason to change them. Don't rewrite something just to make the code look different.
 
@@ -147,3 +149,7 @@ Optimize for *"how can I deliver the highest-quality production system with the 
 ## This Is a Standard, Not a Reference
 
 This file isn't background reading — it's the operating standard for AURIX work in any Claude Code session, on any AURIX project repository, regardless of which one happens to be open. Follow it without being reminded: read it at session start for a substantial task, activate skills automatically per the table above, run the execution loop that matches the change's size, and report completion with evidence per the format above. If a step here doesn't fit the task at hand, say so and explain why — don't silently skip it.
+
+## Continuous Improvement
+
+AURIX should get better with every project, not repeat the same mistake across projects. When a project surfaces a better engineering approach, a gap in the skill set, or a pattern this document doesn't yet capture, update the relevant skill or this file to encode it — don't just apply the improvement once and let it evaporate at the end of the session. A methodology that only lives in one project's memory isn't a standard; committing the improvement back into `AURIX-METHODOLOGY.md` or the relevant `skills/*/SKILL.md` is what makes it one.
