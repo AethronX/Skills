@@ -44,6 +44,11 @@ description: {One sentence describing what the skill does and when to use it. In
 | `security-and-hardening` | OWASP-based security hardening, threat modeling, secrets/dependency hygiene |
 | `performance-optimization` | Measure-first performance workflow, Core Web Vitals, N+1 fixes |
 | `frontend-ui-engineering` | Production-quality accessible UI patterns, WCAG 2.1 AA |
+| `ci-cd-and-automation` | Quality-gate CI pipelines, feature flags, staged rollouts |
+| `api-and-interface-design` | Contract-first REST/API design, idempotency-key handling |
+| `browser-testing-with-devtools` | Live browser verification via Chrome DevTools MCP |
+| `observability-and-instrumentation` | Structured logging, RED/USE metrics, OpenTelemetry tracing |
+| `shipping-and-launch` | Pre-launch checklists, staged rollout thresholds, rollback plans |
 | `writing-tests` | Testing strategy for unit, integration, and e2e tests |
 
 Skills are original unless noted in their `SKILL.md` frontmatter (`source:` field) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

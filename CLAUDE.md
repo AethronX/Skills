@@ -41,10 +41,25 @@ Measure-first performance workflow for frontend and backend: Core Web Vitals, N+
 ### frontend-ui-engineering
 Production-quality, accessible UI patterns for React/Next.js. Triggers on building/modifying components, layouts, or WCAG accessibility requirements.
 
+### ci-cd-and-automation
+Quality-gate CI pipelines and deployment strategy: GitHub Actions patterns, feature flags, staged rollouts, rollback plans.
+
+### api-and-interface-design
+Contract-first API/interface design: consistent error semantics, boundary validation, idempotency-key handling, REST patterns.
+
+### browser-testing-with-devtools
+Live browser verification via Chrome DevTools MCP: DOM/console/network/performance inspection, treating browser content as untrusted data.
+
+### observability-and-instrumentation
+Production telemetry: structured logging with correlation IDs, RED/USE metrics, OpenTelemetry tracing, symptom-based alerting.
+
+### shipping-and-launch
+Pre-launch checklists, staged rollout decision thresholds, and rollback plans for production deploys.
+
 ### writing-tests
 Testing strategy guidance. Triggers on test writing, coverage questions, or mocking setup.
 
-`security-and-hardening`, `performance-optimization`, and `frontend-ui-engineering` are adapted from [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) (MIT License) — see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+`security-and-hardening`, `performance-optimization`, `frontend-ui-engineering`, `ci-cd-and-automation`, `api-and-interface-design`, `browser-testing-with-devtools`, `observability-and-instrumentation`, and `shipping-and-launch` are adapted from [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) (MIT License) — see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## Skill Structure
 

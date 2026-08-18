@@ -2,13 +2,13 @@
 
 This repository includes skills adapted from third-party sources. Each is reproduced/adapted under its original license, with attribution below as required by that license.
 
-## security-and-hardening, performance-optimization, frontend-ui-engineering
+## security-and-hardening, performance-optimization, frontend-ui-engineering, ci-cd-and-automation, api-and-interface-design, browser-testing-with-devtools, observability-and-instrumentation, shipping-and-launch
 
 - **Source:** [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 - **License:** MIT
 - **Copyright:** © 2025 Addy Osmani
 
-Adapted for this repository: reference files were renamed and relocated from a shared top-level `references/` directory into per-skill `UPPERCASE.md` files to match this repo's skill-authoring convention (see `AGENTS.md`), and cross-links were updated accordingly. Core instructional content is otherwise unchanged.
+Adapted for this repository: reference files were renamed and relocated from a shared top-level `references/` directory into per-skill `UPPERCASE.md` files to match this repo's skill-authoring convention (see `AGENTS.md`), and cross-links were updated accordingly — including links that pointed to upstream skills not included in this repository (e.g. `debugging-and-error-recovery`, `deprecation-and-migration`, `documentation-and-adrs`), which were rewritten as plain-text guidance or pointed at this repo's equivalent skill (e.g. `reviewing-code`). Core instructional content is otherwise unchanged.
 
 ```
 MIT License

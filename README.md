@@ -102,6 +102,71 @@ Production-quality, accessible UI patterns for React/Next.js.
 
 ---
 
+### ci-cd-and-automation
+
+Quality-gate pipelines and deployment strategy.
+
+**Use when:** Setting up or modifying CI/CD pipelines, quality gates, or deployment/rollback strategy.
+
+**Includes:**
+- GitHub Actions patterns (lint/type/test/build/audit gates, integration + E2E jobs)
+- Feature flags, staged rollouts, rollback plans
+- CI optimization (caching, parallelism, path filters)
+
+---
+
+### api-and-interface-design
+
+Stable, hard-to-misuse API and interface design.
+
+**Use when:** Designing REST/GraphQL endpoints, module boundaries, or type contracts between frontend and backend.
+
+**Includes:**
+- Contract-first design, consistent error semantics, boundary validation
+- Idempotency-key handling for state-changing endpoints
+- REST resource/pagination patterns, TypeScript interface patterns
+
+---
+
+### browser-testing-with-devtools
+
+Live browser verification via Chrome DevTools MCP.
+
+**Use when:** Building or debugging anything that renders in a browser and you need real runtime evidence, not just code review.
+
+**Includes:**
+- DOM/console/network/performance inspection workflow
+- Security boundaries for treating browser content as untrusted data
+- Screenshot-based visual regression and structured UI test plans
+
+---
+
+### observability-and-instrumentation
+
+Production telemetry: logging, metrics, tracing, alerting.
+
+**Use when:** Shipping anything that runs in production and you need evidence it works, or production issues are hard to diagnose.
+
+**Includes:**
+- Structured logging with correlation IDs, RED/USE metrics, OpenTelemetry tracing
+- Symptom-based alerting rules with runbooks
+- A pre-launch instrumentation gate
+
+---
+
+### shipping-and-launch
+
+Pre-launch checklists and staged production rollouts.
+
+**Use when:** Preparing a production deploy, planning a staged rollout, or defining a rollback strategy.
+
+**Includes:**
+- Full pre-launch checklist (code quality, security, performance, accessibility, infra, docs)
+- Feature-flag lifecycle and staged-rollout decision thresholds
+- Rollback plan template and post-launch verification steps
+
+---
+
 ### writing-tests
 
 Practical testing strategy for web applications.
