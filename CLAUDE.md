@@ -59,6 +59,18 @@ Pre-launch checklists, staged rollout decision thresholds, and rollback plans fo
 ### animation
 Motion and animation design for web UIs: performance-safe CSS properties, duration/easing conventions, `prefers-reduced-motion`, and choosing between CSS, the View Transitions API, and Framer Motion.
 
+### seo-and-discoverability
+Technical SEO and Answer Engine Optimization (AEO): metadata, structured data, sitemaps, crawlability, and content structured for citation by AI assistants.
+
+### payments-and-billing
+Payment/subscription correctness: server-side pricing, webhook-as-source-of-truth, idempotent webhook processing, dunning, PCI-scope avoidance.
+
+### database-design
+Schema, indexing, and migration design: SQL vs. NoSQL, normalization, additive-first migrations, multi-tenancy.
+
+### ai-integration-and-agents
+Building AI-powered features: streaming, prompt/context engineering, RAG pipelines, agentic tool-use scoping, model tiering, evaluation, voice AI. Pairs with `security-and-hardening` for securing these features.
+
 ### writing-tests
 Testing strategy guidance. Triggers on test writing, coverage questions, or mocking setup.
 

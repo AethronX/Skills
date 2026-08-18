@@ -180,6 +180,58 @@ Motion and animation design for web UIs.
 
 ---
 
+### seo-and-discoverability
+
+Makes pages discoverable by search engines and AI answer engines.
+
+**Use when:** Building pages meant to be found (marketing, blog, product, docs), adding metadata/structured data, or optimizing content to be citable by AI assistants.
+
+**Includes:**
+- Technical SEO (metadata, canonical URLs, structured data/schema.org, sitemap)
+- Crawlability for JS-rendered content
+- AEO (Answer Engine Optimization): FAQ schema, direct-answer content structure, `llms.txt`
+
+---
+
+### payments-and-billing
+
+Correct payment processing, subscriptions, and billing.
+
+**Use when:** Integrating a payment provider, building checkout, handling subscriptions, processing webhooks, or handling refunds/disputes.
+
+**Includes:**
+- Server-side pricing, integer-cents money handling
+- Webhook-as-source-of-truth pattern, signature verification, idempotent processing
+- Subscription/dunning patterns, PCI-scope avoidance
+
+---
+
+### database-design
+
+Database schema, indexing, and migration design.
+
+**Use when:** Designing tables/collections, choosing SQL vs. NoSQL, adding indexes, planning migrations, or designing multi-tenancy.
+
+**Includes:**
+- SQL vs. NoSQL decision guide, normalization guidance
+- Indexing rules and composite-index column order
+- Additive-first, multi-step migration safety
+
+---
+
+### ai-integration-and-agents
+
+Building AI-powered features: chat, agents, RAG, and voice AI.
+
+**Use when:** Adding an LLM-backed feature, streaming AI responses, building a retrieval pipeline, giving an agent tools, or building voice AI. Pairs with `security-and-hardening` for protecting these features.
+
+**Includes:**
+- Streaming responses, prompt/context engineering
+- RAG pipeline design and citation
+- Agentic tool-use scoping, model-tiering for cost/latency, evaluation sets, voice AI latency/turn-taking
+
+---
+
 ### writing-tests
 
 Practical testing strategy for web applications.

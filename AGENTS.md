@@ -50,6 +50,10 @@ description: {One sentence describing what the skill does and when to use it. In
 | `observability-and-instrumentation` | Structured logging, RED/USE metrics, OpenTelemetry tracing |
 | `shipping-and-launch` | Pre-launch checklists, staged rollout thresholds, rollback plans |
 | `animation` | Motion/animation design: performance, accessibility, CSS vs. View Transitions vs. Framer Motion |
+| `seo-and-discoverability` | Technical SEO, structured data, and AEO for AI answer engines |
+| `payments-and-billing` | Payment/subscription correctness, webhooks, idempotency, PCI-scope avoidance |
+| `database-design` | Schema design, indexing, migration safety, multi-tenancy |
+| `ai-integration-and-agents` | Building chat/agent/RAG/voice AI features (pairs with security-and-hardening) |
 | `writing-tests` | Testing strategy for unit, integration, and e2e tests |
 
 Skills are original unless noted in their `SKILL.md` frontmatter (`source:` field) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
