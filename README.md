@@ -232,6 +232,32 @@ Building AI-powered features: chat, agents, RAG, and voice AI.
 
 ---
 
+### ecommerce-storefront
+
+Product catalogs, cart, checkout, search, and conversion for storefronts.
+
+**Use when:** Building or reviewing a product listing/detail page, cart, checkout flow, or storefront search.
+
+**Includes:**
+- Variant-level catalog modeling; atomic, race-free inventory decrements
+- Cart price re-validation at checkout; faceted search correctness
+- Conversion patterns for PDP/checkout (guest checkout, minimal fields, trust signals)
+
+---
+
+### api-integration
+
+Reliable integration with third-party APIs and webhooks.
+
+**Use when:** Calling an external API/SDK, handling rate limits/retries, or receiving webhooks from a third-party service. Complements `api-and-interface-design` (which covers APIs *you* expose).
+
+**Includes:**
+- Adapter isolation, timeouts, retry/backoff/jitter, circuit breakers
+- Rate-limit handling, auth patterns (API key vs. OAuth)
+- Webhook signature verification, fast-ack/async-process, dedup by event ID
+
+---
+
 ### writing-tests
 
 Practical testing strategy for web applications.

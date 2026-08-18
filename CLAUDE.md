@@ -71,6 +71,12 @@ Schema, indexing, and migration design: SQL vs. NoSQL, normalization, additive-f
 ### ai-integration-and-agents
 Building AI-powered features: streaming, prompt/context engineering, RAG pipelines, agentic tool-use scoping, model tiering, evaluation, voice AI. Pairs with `security-and-hardening` for securing these features.
 
+### ecommerce-storefront
+Product catalog/variant modeling, race-free inventory, cart price re-validation, checkout conversion, and storefront search.
+
+### api-integration
+Consuming third-party APIs and webhooks reliably: adapter isolation, timeouts, retry/backoff, circuit breakers, rate limits, webhook verification. Complements `api-and-interface-design`.
+
 ### writing-tests
 Testing strategy guidance. Triggers on test writing, coverage questions, or mocking setup.
 

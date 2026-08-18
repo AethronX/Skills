@@ -54,6 +54,8 @@ description: {One sentence describing what the skill does and when to use it. In
 | `payments-and-billing` | Payment/subscription correctness, webhooks, idempotency, PCI-scope avoidance |
 | `database-design` | Schema design, indexing, migration safety, multi-tenancy |
 | `ai-integration-and-agents` | Building chat/agent/RAG/voice AI features (pairs with security-and-hardening) |
+| `ecommerce-storefront` | Product catalog, inventory correctness, cart, checkout, storefront search |
+| `api-integration` | Consuming third-party APIs/webhooks: retries, rate limits, circuit breakers |
 | `writing-tests` | Testing strategy for unit, integration, and e2e tests |
 
 Skills are original unless noted in their `SKILL.md` frontmatter (`source:` field) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
