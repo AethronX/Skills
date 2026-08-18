@@ -2,7 +2,9 @@
 
 A collection of skills for AI coding agents focused on modern web development workflows.
 
-For how to select, combine, and sequence these skills across a project's lifecycle, see [AURIX-METHODOLOGY.md](AURIX-METHODOLOGY.md).
+## AURIX Operating Standard (mandatory for AURIX work)
+
+[AURIX-METHODOLOGY.md](AURIX-METHODOLOGY.md) is the operating standard for building AURIX projects with these skills, not just reference material. For any substantial AURIX task: read it at the start of the task, activate skills automatically per its orchestration table (don't wait to be told a skill's name), inspect an existing project before modifying it, and report completion with evidence — anything not actually checked gets marked `NOT VERIFIED`, never implied as passing.
 
 ## Repository Structure
 

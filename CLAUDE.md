@@ -2,7 +2,16 @@
 
 This repository contains skills for Claude Code and other AI coding agents.
 
-For guidance on selecting, combining, and sequencing these skills across a full project lifecycle, see [AURIX-METHODOLOGY.md](AURIX-METHODOLOGY.md).
+## AURIX Operating Standard (mandatory for AURIX work)
+
+When working on an AURIX project — this repo or any project repo built with these skills — [AURIX-METHODOLOGY.md](AURIX-METHODOLOGY.md) is an operating standard, not optional background reading. On any substantial task:
+
+1. Read `AURIX-METHODOLOGY.md` (and this file, and `AGENTS.md`) at the start of the task, not just when asked.
+2. Activate the skills its Automatic Skill Orchestration table maps to the task — without waiting to be told a skill's name.
+3. Inspect an existing project before modifying it; protect what already works.
+4. Run the execution loop sized to the change, and report completion with evidence — mark anything untested `NOT VERIFIED` rather than implying it passed.
+
+Don't wait to be reminded of this on each task — it applies by default whenever the work matches an AURIX project.
 
 ## Installation
 
